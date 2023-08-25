@@ -7,7 +7,7 @@
     "dev": "npm run serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node index.js"
+    "start": "node run dev"
   },
   "dependencies": {
     "chartist": "0.11.4",
