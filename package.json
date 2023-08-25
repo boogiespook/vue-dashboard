@@ -3,9 +3,10 @@
   "version": "1.5.1",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "openshift": "nodeshift --expose --dockerImage=registry.access.redhat.com/rhscl/ubi8/nodejs-12",
-    "start": "npm run dev"
+    "preinstall": "npm i -g @vue/cli @vue/cli-service-global",
+    "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service serve",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@vue/cli-service": "4.5.19",
