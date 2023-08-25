@@ -9,9 +9,21 @@
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
-        <p>Dashboard</p>
+        <p>Executive Lens</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <sidebar-link to="/dashboard">
+        <md-icon>security</md-icon>
+        <p>ZTA Lens</p>
+      </sidebar-link>      
+      <sidebar-link to="/dashboard">
+        <md-icon>security</md-icon>
+        <p>Operations Lens</p>
+      </sidebar-link>      
+      <sidebar-link to="/typography">
+        <md-icon>settings</md-icon>
+        <p>Admin</p>
+      </sidebar-link>
+              <!-- <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
       </sidebar-link>
@@ -38,8 +50,8 @@
       <sidebar-link to="/upgrade" class="active-pro">
         <md-icon>unarchive</md-icon>
         <p>Upgrade to PRO</p>
-      </sidebar-link>
-    </side-bar>
+      </sidebar-link> -->
+    </side-bar> 
 
     <div class="main-panel">
       <top-navbar></top-navbar>
@@ -70,7 +82,7 @@ export default {
     DashboardContent,
     ContentFooter,
     MobileMenu,
-    FixedPlugin,
+//    FixedPlugin,
   },
   data() {
     return {
