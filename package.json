@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "preinstall": "npm i -g @vue/cli @vue/cli-service-global",
-    "serve": "npm serve",
-    "build": "npm build",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
