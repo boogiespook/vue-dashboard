@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "preinstall": "npm i -g @vue/cli @vue/cli-service-global",
-    "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service serve",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service build",
+    "serve": "npm serve",
+    "build": "npm build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
