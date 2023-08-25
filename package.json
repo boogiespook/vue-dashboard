@@ -5,7 +5,6 @@
   "scripts": {
     "preinstall": "npm i -g @vue/cli @vue/cli-service-global",
     "serve": "npm run serve",
-    "build": "npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
